@@ -14,6 +14,7 @@
 		F0F1313A24FE470E00C1FF32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F1313924FE470E00C1FF32 /* Preview Assets.xcassets */; };
 		F0F1313D24FE470E00C1FF32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F1313B24FE470E00C1FF32 /* LaunchScreen.storyboard */; };
 		F0F1314624FE4E7400C1FF32 /* HackerNewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1314524FE4E7400C1FF32 /* HackerNewsAPI.swift */; };
+		F0F1314924FE53E500C1FF32 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1314824FE53E500C1FF32 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F0F1313C24FE470E00C1FF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0F1313E24FE470E00C1FF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0F1314524FE4E7400C1FF32 /* HackerNewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsAPI.swift; sourceTree = "<group>"; };
+		F0F1314824FE53E500C1FF32 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F0F1313424FE470C00C1FF32 /* ContentView.swift */,
+				F0F1314824FE53E500C1FF32 /* PostCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				F0F1313324FE470C00C1FF32 /* SceneDelegate.swift in Sources */,
 				F0F1313524FE470C00C1FF32 /* ContentView.swift in Sources */,
 				F0F1314624FE4E7400C1FF32 /* HackerNewsAPI.swift in Sources */,
+				F0F1314924FE53E500C1FF32 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,22 +9,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var hackerNews = HackerNewsAPI()
 
     var body: some View {
         NavigationView {
-            List(posts) { post in
-                Text("\(post.id) : \(post.title)")
-            }
+            List(hackerNews.posts) { post in
+                PostCell(post: post)
+                }
             .navigationBarTitle("Hacker News")
+        }
+        .onAppear {
+            self.hackerNews.search()
         }
     }
 }
 
-let posts: [Post] = [
-]
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().previewDevice("iPhone Xs")
+        var cv = ContentView()
+        let hn = HackerNewsAPI()
+        hn.posts = samplePosts
+        
+        cv.hackerNews = hn
+        
+        return Group {
+           cv
+            .environment(\.colorScheme, .light)
+              .previewDisplayName("Light Mode")
+
+           cv
+              .environment(\.colorScheme, .dark)
+              .previewDisplayName("Dark Mode")
+        }
     }
 }
