@@ -20,15 +20,8 @@ struct ContentView: View {
     }
 }
 
-let posts = [
-    Post(id: "1", title: "Test1"),
-    Post(id: "2", title: "Test2")
+let posts: [Post] = [
 ]
-
-struct Post: Identifiable {
-    let id: String
-    let title: String
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
