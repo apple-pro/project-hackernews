@@ -15,8 +15,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(hackerNews.posts) { post in
-                PostCell(post: post)
+                NavigationLink(destination: DetailView(url: post.url)) {
+                    PostCell(post: post)
                 }
+            }
             .navigationBarTitle("Hacker News")
         }
         .onAppear {

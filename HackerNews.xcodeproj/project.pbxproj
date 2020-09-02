@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F04E50B624FF944500663BD8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E50B524FF944500663BD8 /* DetailView.swift */; };
 		F0F1313124FE470C00C1FF32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1313024FE470C00C1FF32 /* AppDelegate.swift */; };
 		F0F1313324FE470C00C1FF32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1313224FE470C00C1FF32 /* SceneDelegate.swift */; };
 		F0F1313524FE470C00C1FF32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1313424FE470C00C1FF32 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F04E50B524FF944500663BD8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F0F1312D24FE470C00C1FF32 /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F1313024FE470C00C1FF32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0F1313224FE470C00C1FF32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				F0F1313424FE470C00C1FF32 /* ContentView.swift */,
 				F0F1314824FE53E500C1FF32 /* PostCell.swift */,
+				F04E50B524FF944500663BD8 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F1313124FE470C00C1FF32 /* AppDelegate.swift in Sources */,
+				F04E50B624FF944500663BD8 /* DetailView.swift in Sources */,
 				F0F1313324FE470C00C1FF32 /* SceneDelegate.swift in Sources */,
 				F0F1313524FE470C00C1FF32 /* ContentView.swift in Sources */,
 				F0F1314624FE4E7400C1FF32 /* HackerNewsAPI.swift in Sources */,
